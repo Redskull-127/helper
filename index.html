@@ -2,84 +2,127 @@
 <html>
 
 <head>
-    <title>
-        Local Support!
-    </title>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap" rel="stylesheet">
-    <script src="script/indexscript.js"></script>
-    <link rel="stylesheet" href="style/indexstyle.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <!--
+    If you are serving your web app in a path other than the root, change the
+    href value below to reflect the base path you are serving from.
+
+    The path provided below has to start and end with a slash "/" in order for
+    it to work correctly.
+
+    For more details:
+    * https://developer.mozilla.org/en-US/docs/Web/HTML/Element/base
+
+    This is a placeholder for base href that will be replaced by the value of
+    the `--base-href` argument provided to `flutter build`.
+  -->
+  <base href="/">
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="helperapp">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png" />
+
+  <title>helperapp</title>
+  <link rel="manifest" href="manifest.json">
+  <meta name="google-signin-client_id"
+    content="678707839438-rk973avt0mkgd9d3iiqdo1ei0n6fgc3h.apps.googleusercontent.com">
 </head>
 
 <body>
-    <nav class="navbar navbar-primary">
-        <div class="container-fluid">
-            <div class="navbar-header">
-                <h2 class="navbar-brand"
-                    style="font-family: 'Segoe UI','Open Sans', sans-serif; color:rgb(230, 126, 42); font-size:xxx-large">
-                    Helper</h2>
-            </div>
-            <ul class="nav navbar-nav">
-                <li class="active" style="padding-top: 20%;"><a
-                        style="font-family: 'Segoe UI','Open Sans', sans-serif; color:rgb(230, 126, 42); font-size:xx-larger">Publish</a>
-                </li>
-                <li style="padding-top: 20%;"><a
-                        style="font-family: 'Segoe UI','Open Sans', sans-serif; color:rgb(230, 126, 42); font-size:x-larger">Contact</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
-    <div class="container">
-        <div class="ads">
-            <img src="assets/image/kashishtekwani/kashandkerry/profile.jpeg" alt="Kash & Kerry" height="120"
-                style="margin-top:1.5%;margin-left:8px">
-            <h1 style="text-align:center;">Kash and karry cakes<br /><br />
-                <p style="font-size: 16pt">Serving SWEETLY DELUSIONAL treats.
-                    Super hygienic and freshly baked delicacies ✨</p>
-            </h1>
-            <a style="font-size: 20pt;margin-top:50px" href="javascript:void(0)" onclick="man()">Book</a>
-            <div id="light" class="white_content">
-                <h2>Kashish Tekwani</h2> <a class="fa fa-instagram" style="font-size:25pt"
-                    href="https://instagram.com/kash_and_karry_cakes/" target="_blank"></a><br /><br /> <a
-                    href="javascript:void(0)" onclick="feman()">Close</a>
-            </div>
-            <div id="fade" class="black_overlay"></div>
-            <div class="adshover">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake2.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake3.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake4.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake5.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake6.jpeg" height="250">
-                <img src="assets/image/kashishtekwani/kashandkerry/cake7.jpeg" height="250">
-            </div>
-        </div>
-        <div class="ads">
-            <img src="assets/image/rohan/0002.jpg" alt="Roahn artist" height="120"
-                style="margin-top:1.5%;margin-left:10px">
-            <h1 style="text-align:center;">Artist<br /><br />
-                <p style="font-size: 16pt">I'm an artist. I make mandala, custom shoes, mural, hyper detailed art, doodles and a lot more. ✨</p>
-            </h1>
-            <a style="font-size: 20pt;margin-top:50px" href="javascript:void(0)" onclick="man()">Book</a>
-            <div id="light" class="white_content">
-                <h2>Rohan Shewkani</h2> <a class="fa fa-instagram" style="font-size:25pt"
-                    href="https://instagram.com/rohan_shewkani/" target="_blank"></a><br /><br /> <a
-                    href="javascript:void(0)" onclick="feman()">Close</a>
-            </div>
-            <div id="fade" class="black_overlay"></div>
-            <div class="adshover">
-                <img src="assets/image/rohan/0001.jpg" height="250">
-            </div>
-        </div>
-    </div>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-app.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-storage.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-firestore.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/8.10.0/firebase-auth.js"></script>
+  <script>
+
+    var firebaseConfig = {
+      apiKey: "AIzaSyCYC0s0tOVXoYib_zTXn6Pu5V6GCw1Eo9A",
+      authDomain: "helper-1c94d.firebaseapp.com",
+      projectId: "helper-1c94d",
+      storageBucket: "helper-1c94d.appspot.com",
+      messagingSenderId: "678707839438",
+      appId: "1:678707839438:web:d358acd145e0270dde2b9f",
+      measurementId: "G-4MEGZWR1CF"
+    };
+
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    var serviceWorkerVersion = '3348436648';
+    var scriptLoaded = false;
+    function loadMainDartJs() {
+      if (scriptLoaded) {
+        return;
+      }
+      scriptLoaded = true;
+      var scriptTag = document.createElement('script');
+      scriptTag.src = 'main.dart.js';
+      scriptTag.type = 'application/javascript';
+      document.body.append(scriptTag);
+    }
+
+    if ('serviceWorker' in navigator) {
+      // Service workers are supported. Use them.
+      window.addEventListener('load', function () {
+        // Wait for registration to finish before dropping the <script> tag.
+        // Otherwise, the browser will load the script multiple times,
+        // potentially different versions.
+        var serviceWorkerUrl = 'flutter_service_worker.js?v=' + serviceWorkerVersion;
+        navigator.serviceWorker.register(serviceWorkerUrl)
+          .then((reg) => {
+            function waitForActivation(serviceWorker) {
+              serviceWorker.addEventListener('statechange', () => {
+                if (serviceWorker.state == 'activated') {
+                  console.log('Installed new service worker.');
+                  loadMainDartJs();
+                }
+              });
+            }
+            if (!reg.active && (reg.installing || reg.waiting)) {
+              // No active web worker and we have installed or are installing
+              // one for the first time. Simply wait for it to activate.
+              waitForActivation(reg.installing || reg.waiting);
+            } else if (!reg.active.scriptURL.endsWith(serviceWorkerVersion)) {
+              // When the app updates the serviceWorkerVersion changes, so we
+              // need to ask the service worker to update.
+              console.log('New service worker available.');
+              reg.update();
+              waitForActivation(reg.installing);
+            } else {
+              // Existing service worker is still good.
+              console.log('Loading app from service worker.');
+              loadMainDartJs();
+            }
+          });
+
+        // If service worker doesn't succeed in a reasonable amount of time,
+        // fallback to plaint <script> tag.
+        setTimeout(() => {
+          if (!scriptLoaded) {
+            console.warn(
+              'Failed to load app from service worker. Falling back to plain <script> tag.',
+            );
+            loadMainDartJs();
+          }
+        }, 4000);
+      });
+    } else {
+      // Service workers not supported. Just drop the <script> tag.
+      loadMainDartJs();
+    }
+  </script>
+
 </body>
 
 </html>
